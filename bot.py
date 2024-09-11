@@ -4,12 +4,12 @@ from telegram.ext import filters, ApplicationBuilder, ContextTypes, CommandHandl
 from openai import OpenAI
 
 #OPENAI API
-client = OpenAI(api_key = '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')
+client = OpenAI(api_key = 'chatgpt api')
 
 # TELEGRAM TOKENS/IDs
-GROUP_CHAT_ID = "-4509216306"
-BOT1_API_TOKEN = '7276036723:AAHjzVq1CnD6Ra5W8bACAhSPEzfT-xFIbfo'
-BOT2_API_TOKEN = '7186428106:AAEGPaGHH2uREVJqmYWffRFmSIqKEK_Wtzw'
+GROUP_CHAT_ID = "your TG group chat"
+BOT1_API_TOKEN = 'bot'
+BOT2_API_TOKEN = 'bot'
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
